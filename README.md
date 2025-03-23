@@ -11,5 +11,5 @@ you can create it using the class : neural_network
 
 `LR`(Learning rate) ; LR = 1 par default 
 
-`act` (activation function) ; act = "sigmoid" par defaut ; (pour l'instant seulement sigmoid and ReLU)
+`act` (activation function) ; act = "sigmoid" par defaut ; (pour l'instant seulement sigmoid, ReLU and tanh)
 
