@@ -1,7 +1,14 @@
 # Neural-network-library
-a library that I made to generate and train a fully connected neural network 
+a library that I made to generate and train a fully connected neural network like this one.
+<p align="center">
+  <img src="assets/neural.png" width="400"/>
+</p>
 
-![Architecture du réseau](assets/neural.png)
+# Features
+*  Define a custom network architecture with any number of hidden layers (or none).
+*  Basic activation functions: Sigmoid, ReLU, and Tanh
+* Adjustable learning rate
+* Fully written in Python and Numpy, no external ML libraries required.
 
 you can create it using the class : neural_network
 ### crée un réseau de neurone : 
