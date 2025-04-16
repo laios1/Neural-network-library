@@ -23,6 +23,7 @@ a library that I made to generate and train a fully connected neural network lik
    cd Neural-network-library
    ```
 **2. Create and activate a virtual environment:**
+
   ### On macOS/Linux:
   ```bash
   python3 -m venv venv
@@ -34,7 +35,11 @@ a library that I made to generate and train a fully connected neural network lik
   venv\Scripts\activate
   ```
 
+**3. install dependencies**
 
+  ```Bash
+  pip install numpy
+  ```
 
 you can create it using the class : neural_network
 ### crée un réseau de neurone : 
