@@ -21,7 +21,7 @@ a library that I made to generate and train a fully connected neural network lik
    cd Neural-network-library
    ```
 2. Create and activate a virtual environment:
-   ### On macOS/Linux:
+  ### On macOS/Linux:
   ```bash
   python3 -m venv venv
   source venv/bin/activate
