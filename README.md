@@ -43,14 +43,19 @@ a library that I made to generate and train a fully connected neural network lik
 
 # Getting Started
 ## Create a Neural Network
-you can create it using the class : neural_network
-### crée un réseau de neurone : 
+```python
+import Neural_Network as nn 
 
-`SSize` = [#input_layer, #hidden_layer_1,..., #hidden_layer_n, #output_layer]
+# Define the architecture:
+# Format: [input_size, hidden1_size, ..., output_size]
+network_sizes = [2,3,2] #here : 2 inputs, 1 hidden layer with 3 neurons, 2 outputs
 
-/!\ peut ne pas avoir d'hidden layer
+# Activation function (optional, default = "sigmoid")
+# Options: "sigmoid", "relu", "tanh"
+activation_function = "relu"
 
-`LR`(Learning rate) ; LR = 1 par default 
+# Learning rate (optional, default = 0.1)
+lr = 0.1 
 
-`act` (activation function) ; act = "sigmoid" par defaut ; (pour l'instant seulement sigmoid, ReLU and tanh)
-
+network = nn.neural_network(network_sizes, LR=lr,act=activation_function)
+```
