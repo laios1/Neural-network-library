@@ -7,8 +7,32 @@ a library that I made to generate and train a fully connected neural network lik
 # Features
 *  Define a custom network architecture with any number of hidden layers (or none).
 *  Basic activation functions: Sigmoid, ReLU, and Tanh
-* Adjustable learning rate
-* Fully written in Python and Numpy, no external ML libraries required.
+*  Adjustable learning rate
+*  Fully written in Python and Numpy, no external ML libraries required.
+
+# Requirements
+* Python 3.8+
+* Numpy
+
+# Installation & Setup
+1. Clone the repository:
+   ```Bash
+   git clone https://github.com/laios1/Neural-network-library.git
+   cd Neural-network-library
+   ```
+2. Create and activate a virtual environment:
+   ### On macOS/Linux:
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
+  ### On Windows:
+  ```Bash
+  python -m venv venv
+  venv\Scripts\activate
+  ```
+
+
 
 you can create it using the class : neural_network
 ### crée un réseau de neurone : 
