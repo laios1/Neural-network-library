@@ -15,12 +15,14 @@ a library that I made to generate and train a fully connected neural network lik
 * Numpy
 
 # Installation & Setup
-1. Clone the repository:
+
+**1. Clone the repository:**
+
    ```Bash
    git clone https://github.com/laios1/Neural-network-library.git
    cd Neural-network-library
    ```
-2. Create and activate a virtual environment:
+**2. Create and activate a virtual environment:**
   ### On macOS/Linux:
   ```bash
   python3 -m venv venv
