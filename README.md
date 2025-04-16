@@ -41,6 +41,8 @@ a library that I made to generate and train a fully connected neural network lik
   pip install numpy
   ```
 
+# Getting Started
+## Create a Neural Network
 you can create it using the class : neural_network
 ### crée un réseau de neurone : 
 
