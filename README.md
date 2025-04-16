@@ -59,3 +59,13 @@ lr = 0.1
 
 network = nn.neural_network(network_sizes, LR=lr,act=activation_function)
 ```
+
+
+# Usage Tips
+* Make sure the file neural_network.py is in the same directory as your script or properly installed in your project.
+* To avoid path issues, structure your project like this:
+```
+your_project/
+├── main.py
+├── neural_network.py
+```
