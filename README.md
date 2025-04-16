@@ -1,6 +1,7 @@
 # Neural-network-library
 a library that I made to generate and train a fully connected neural network 
 
+![Architecture du réseau](assets/neural.png)
 
 you can create it using the class : neural_network
 ### crée un réseau de neurone : 
