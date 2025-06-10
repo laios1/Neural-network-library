@@ -1,6 +1,6 @@
 # Neural-network-library
-a library that I made to generate and train a fully connected neural network like this one.
-*not any library required only numpy* 
+a library that I made to generate and train a fully connected neural network like this one.  
+**not any library required only numpy**
 <p align="center">
   <img src="assets/neural.png" width="400"/>
 </p>
